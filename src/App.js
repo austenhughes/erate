@@ -1,13 +1,12 @@
+// import logo from './logo.svg';
 import React from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-
-import Home from "../src/pages/Home/index";
-// import Contact from "./pages/Contact/index";
-// import FAQ from "./pages/Faq/index";
-// import Forms from "./pages/Forms/index";
-// import Procurement from "./pages/Procurement/index";
-// import Services from "./pages/Services/index";
-
+import Home from "./pages/Home/index";
+import Contact from "./pages/Contact/index";
+import FAQ from "./pages/Faq/index";
+import Forms from "./pages/Forms/index";
+import Procurement from "./pages/Procurement/index";
+import Services from "./pages/Services/index";
 
 import './App.css';
 
@@ -22,25 +21,25 @@ function App() {
             <Home />
           </Route>
 
-        {/* <Route  exact path={["/contact"]}>
+        <Route path={["/contact"]}>
             <Contact />
           </Route>
 
-        <Route path={["/FAQ"]}>
+        <Route path={["/faq"]}>
             <FAQ />
           </Route>
-
-        <Route path={["/forms"]}>
+        
+          <Route path={["/forms"]}>
             <Forms />
-          </Route> */}
+          </Route>
 
-        {/* <Route path={["/procurement"]}>
+        <Route path={["/procurement"]}>
             <Procurement />
           </Route>
 
         <Route path={["/services"]}>
             <Services />
-          </Route> */}
+          </Route>
 
         </Switch>
       </div>
