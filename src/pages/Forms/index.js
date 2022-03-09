@@ -1,10 +1,12 @@
 import React from "react";
-// import "./style.css";
+import Nav from "../../componenents/Nav/index";
+import Footer from "../../componenents/Footer/index";
 
 function Forms() {
 
     return <div>
-        <div>Hi!!!</div>
+        <Nav />
+        <Footer />
         </div>
   
   }

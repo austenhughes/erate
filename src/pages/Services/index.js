@@ -1,10 +1,14 @@
 import React from "react";
-// import "./style.css";
+import Nav from "../../componenents/Nav/index";
+import Footer from "../../componenents/Footer/index";
+import Servs from "../../componenents/Services/index";
 
 function Services() {
 
     return <div>
-        <div>Hi!!!</div>
+        <Nav />
+        <Servs />
+        <Footer />
         </div>
   
   }

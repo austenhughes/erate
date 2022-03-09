@@ -1,11 +1,14 @@
 import React from "react";
-// import "./style.css";
-import Test from "../../componenents/Test/index";
+import Nav from "../../componenents/Nav/index";
+import Footer from "../../componenents/Footer/index";
+import Main from "../../componenents/Main/index";
 
 function Home() {
 
     return <div>
-        <Test />
+        <Nav />
+        <Main />
+        <Footer />
         </div>
   
   }

@@ -1,10 +1,14 @@
 import React from "react";
-// import "./style.css";
+import Nav from "../../componenents/Nav/index";
+import Footer from "../../componenents/Footer/index";
+import Card from "../../componenents/Card/index";
 
 function Contact() {
 
     return <div>
-        <div>Hi!!!</div>
+        <Nav />
+        <Card />
+        <Footer />
         </div>
   
   }

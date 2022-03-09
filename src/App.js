@@ -5,8 +5,8 @@ import Home from "./pages/Home/index";
 import Contact from "./pages/Contact/index";
 import FAQ from "./pages/Faq/index";
 import Forms from "./pages/Forms/index";
-import Procurement from "./pages/Procurement/index";
 import Services from "./pages/Services/index";
+import Consulting from "./pages/Consulting/index";
 
 import './App.css';
 
@@ -33,12 +33,12 @@ function App() {
             <Forms />
           </Route>
 
-        <Route path={["/procurement"]}>
-            <Procurement />
-          </Route>
-
         <Route path={["/services"]}>
             <Services />
+          </Route>
+
+        <Route path={["/consulting"]}>
+            <Consulting />
           </Route>
 
         </Switch>
