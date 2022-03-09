@@ -5,7 +5,7 @@ function Why() {
     <div>
 
     <div className="main">
-    <div className="center">Why you want a consultant : </div>
+    <div className="center"> Consulting </div>
     </div>
 
     <div className="main">
