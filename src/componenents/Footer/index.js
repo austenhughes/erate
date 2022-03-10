@@ -8,7 +8,7 @@ function Footer() {
     
     <div> 
     {/* <img className="logoFoot" src={Logo} alt="logo"></img>  */}
-    <div>© cas-erate 2022</div>
+    <div className="insideFoot">© cas-erate 2022</div>
     </div>
  
     </div>

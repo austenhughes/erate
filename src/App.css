@@ -4,24 +4,29 @@ body {
   /* background-image: url("./assets/pics/grunge-wood-texture.jpg"); */
   width: 100%;
   height: 100%;
-  min-height: 1000px;
+  min-height: 750px;
   position: relative;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
 } 
 
-.nav{
-  background-color: #003452;
+.img{
+  width: 33.33%;
+  height: 250px;
+}
+
+.top{
+  background-color: #194D33;
   /* padding:10px; */
   text-align: center;
-  height: 50px;
+  height: 70px;
   /* min-width: 950px; */
   border-top: 10px solid black;
   border-bottom: 10px solid black;
 }
 
-.navBar{
+.topBar{
   font-size: 30px;
   margin:10px;
   text-align: center;
@@ -142,10 +147,9 @@ button{
 
 .footer{
   color: #eeeeee;
-  background-color: #003452;
-  padding: 10px;
+  background-color: #194D33;
   text-align: center;
-  height: 25px;
+  height: 50px;
   width:100%;
   border-top: 10px solid black;
   border-bottom: 10px solid black;
@@ -154,10 +158,15 @@ button{
   bottom: -100px;
 }
 
+
 .test{
   background-color: #194D33;
   background-color: #FFF8D6;
   background-color: #003452;
   background-color: #000000;
   background-color: #eeeeee;
+}
+
+.Accordion.Header{
+  font-size: 50px;
 }

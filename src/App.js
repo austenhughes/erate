@@ -8,6 +8,9 @@ import Forms from "./pages/Forms/index";
 import Services from "./pages/Services/index";
 import Consulting from "./pages/Consulting/index";
 
+// adding bootstrap ... I think 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './App.css';
 
 function App() {

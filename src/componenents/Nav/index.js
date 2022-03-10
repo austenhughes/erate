@@ -5,16 +5,16 @@ function Nav() {
   
   return (
     
-    <div className="nav">
+    <div className="top">
     
     <div> 
       <img className="logo" src={Logo} alt="logo"></img>
-      <a href="/erate/#/home" className="navBar">Home</a>
-      <a href="/erate/#/consulting" className="navBar">Consulting</a>
-      <a href="/erate/#/services" className="navBar">Services</a>
-      {/* <a href="/erate/#/forms" className="navBar">Forms</a> */}
-      <a href="/erate/#/faq" className="navBar">FAQ</a>
-      <a href="/erate/#/contact" className="navBar">Contact</a>
+      <a href="/erate/#/home" className="topBar">Home</a>
+      <a href="/erate/#/consulting" className="topBar">Consulting</a>
+      <a href="/erate/#/services" className="topBar">Services</a>
+      {/* <a href="/erate/#/forms" className="topvBar">Forms</a> */}
+      <a href="/erate/#/faq" className="topBar">FAQ</a>
+      <a href="/erate/#/contact" className="topBar">Contact</a>
     </div>
  
     </div>
