@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from './Logo.png';
+// import Logo from './Logo.png';
 
 function Nav() {
   
@@ -8,7 +8,7 @@ function Nav() {
     <div className="top">
     
     <div> 
-      <img className="logo" src={Logo} alt="logo"></img>
+      {/* <img className="logo" src={Logo} alt="logo"></img> */}
       <a href="/erate/#/home" className="topBar">Home</a>
       <a href="/erate/#/consulting" className="topBar">Consulting</a>
       <a href="/erate/#/services" className="topBar">Services</a>

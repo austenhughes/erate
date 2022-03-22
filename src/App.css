@@ -11,9 +11,34 @@ body {
   overflow-x: hidden;
 } 
 
+.sendContact{
+  border-radius: 25px 25px 25px 25px;
+  border: 5px solid black;
+  text-align: center;
+  width: 30%;
+  min-width: 200px;
+  margin-top: 20px;
+  float: right;
+}
+
 .img{
   width: 33.33%;
   height: 250px;
+  border-top: 10px solid black;;
+}
+
+.img2{
+  width: 33.33%;
+  height: 250px;
+  border-top: 10px solid black;;
+}
+
+.img3{
+  width: 30%;
+  height: 250px;
+  margin: 1.65%;
+  border-radius: 25px 25px 25px 25px;
+  border: 5px solid black;
 }
 
 .top{
@@ -42,61 +67,25 @@ a:visited{
 
 .logo{
     background-color: #eeeeee;
-    height: 50px;
-    border: 2px solid black;
     border-radius: 25px 25px 25px 25px;
-    /* position: fixed; */
-    /* top: 10px;
-    left: 20px; */
-    /* float: left;
-    margin-left: 20px; */
-    position: absolute;
-    left: 20px;
-    /* margin: auto; */
+    border: 5px solid black;
+    height: 180px;
+    width: 30%;
+    object-fit: contain;
+    float: left;
+    position: relative;
+    top:-215px;
+    margin: 10px;
+    margin-left: -3%;
 }
 
-.logoFoot{
-  background-color: #eeeeee;
-  height: 65px;
-  border: 2px solid black;
-  border-radius: 25px 25px 25px 25px;
-  position: fixed;
-  bottom: 10px;
-  left: 45%;
-}
-
-.title{
-  font-size: 30px;
-  background-color: white;
-  padding:10px;
-  text-align: center;
-  border-radius: 25px 25px 25px 25px;
-  border: 5px solid black;
-  width: 30%;
-  min-width: 250px;
-  margin: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.card{
-  font-size: 22px;
-  background-color: white;
-  padding:10px;
-  text-align: center;
-  border-radius: 25px 25px 25px 25px;
-  border: 5px solid black;
-  width: 40%;
-  min-width: 250px;
-  margin: 10px;
-  margin-left: auto;
-  margin-right: auto;
+.grey{
+  background-color:  #eeeeee;
 }
 
 .main{
-  /* text-indent: 50px; */
   font-size: 26px;
-  background-color: white;
+  background-color:  #eeeeee;
   /* background-image: url("./assets/pics/chalk.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%; */
@@ -122,8 +111,16 @@ a:visited{
 }
 
 .bigger{
-  font-size: 26px;
+  font-size: 32px;
+  margin-bottom: 25px;
 }
+
+/* .bigBox{
+  height: 80%;
+  line-height: 1;
+  word-break: break-word;
+  text-align: top;
+} */
 
 .center{
   text-align: center;
@@ -131,18 +128,12 @@ a:visited{
 }
 
 .bottom{
-  margin-bottom: 100px;
+  margin-bottom: -120px;
 }
 
-button{
-  color: #eeeeee;
-  padding:5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border: 5px solid black;
-  border-radius: 25px;
-  background-color: black;
-  margin: 10px;
+.underline{
+  text-decoration: underline;
+  font-size: 20px;
 }
 
 .footer{
@@ -158,7 +149,6 @@ button{
   bottom: -100px;
 }
 
-
 .test{
   background-color: #194D33;
   background-color: #FFF8D6;
@@ -167,6 +157,162 @@ button{
   background-color: #eeeeee;
 }
 
-.Accordion.Header{
-  font-size: 50px;
+.circuit{
+  width:100%;
+  height: 220px;
+  z-index: 0;
+  border-bottom: 10px solid black;
 }
+
+.topZ{
+  z-index: 1;
+  position: relative;
+  /* top:-100px; */
+}
+
+.mainUp{
+  font-size: 36px;
+  background-color:  #eeeeee;
+  padding-left:50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 25px 25px 25px 25px;
+  border: 5px solid black;
+  width: 70%;
+  height: 100px;
+  min-width: 250px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top:-167px;
+  object-fit: contain;
+}
+
+.up{
+  position: relative;
+  top:-170px;
+}
+
+.upMore{
+  position: relative;
+  top:-325px;
+}
+
+.upMore2{
+  position: relative;
+  top:-725px;
+}
+
+.office{
+width:30%;
+margin:10px;
+margin-left: 40px;
+font-weight: bold;
+}
+
+.container{
+  display: flex;
+}
+
+.fullFoot{
+  border-top: 10px solid black;
+  height: 200px;
+}
+
+.kids1{
+width:auto;
+border-radius: 25px 25px 25px 25px;
+border: 5px solid black;
+margin: 10px;
+float: right;
+height: 150px;
+display: flex;
+align-items: flex-end;
+/* shape-outside: inset(calc(100% - 250px) 0 0); */
+}
+
+.kids2{
+width:auto;
+border-radius: 25px 25px 25px 25px;
+border: 5px solid black;
+margin: 10px;
+float: left;
+height: 150px;
+display: flex;
+align-items: flex-end;
+}
+
+.kids3{
+  width:30%;
+  border-radius: 25px 25px 25px 25px;
+  border: 5px solid black;
+  margin: 10px;
+  margin-right: 15px;
+  margin-top: 25px;
+  float: right;
+  height: auto;
+  display: flex;
+  align-items: flex-end;
+  }    
+  
+.sidePics{
+  width:auto;
+  border-radius: 25px 25px 25px 25px;
+  border: 5px solid black;
+  margin-bottom: 10px;
+  float: right;
+  height: 200px;
+  /* display: flex; */
+  /* align-items: flex-end; */
+}
+
+.right{
+width: 30%;
+float: right;
+}
+
+.left{
+margin-top: 10%;
+}
+
+.contactLeft{
+width: 50%;
+margin: 5px;
+}
+
+.contactRight{
+width: 100%;
+margin: 5px;
+}
+
+.wrap{
+  display: flex;
+}
+
+.underline2{
+  text-decoration: underline;
+}
+
+.addMargin{
+  margin:10px ;
+}
+
+.rel{
+position: relative;
+}
+
+.abs{
+/* position: absolute; */
+width: 30%;
+margin-top: 50px;
+margin-left: 105px;
+margin-right: 105px;
+margin-bottom: 50px;
+height: auto;
+}
+
+/* .text{
+  width:80%;
+} */

@@ -2,9 +2,9 @@ import React from "react";
 
 function List() {
   return (
-    <div className="list">
+    <div className="">
     
-    <div> list </div>
+    <div> title </div>
     <ul> 
       <li></li>
       <li></li>
