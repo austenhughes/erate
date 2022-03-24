@@ -15,7 +15,7 @@ function Why() {
         <img className="circuit" src={Circuit} alt="PhotoByUmbertoOnUnsplash"></img>
         <div className="container">
         <img className="logo" src={Logo} alt="logo"></img>
-        <div className="mainUp topZ center bigger">Consulting</div></div>
+        <div className="mainUp topZ center bigger underline2">Consulting:</div></div>
         </div>
 
     <Accordion alwaysOpen >

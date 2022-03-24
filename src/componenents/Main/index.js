@@ -16,13 +16,13 @@ function Main() {
         <img className="circuit" src={Circuit} alt="PhotoByUmbertoOnUnsplash"></img>
         <div className="container">
         <img className="logo" src={Logo} alt="logo"></img>
-        <div className="mainUp topZ center bigger">CAS : Communications Audit Services</div></div>
+        <div className="mainUp topZ center bigger underline2">CAS : Communications Audit Services</div></div>
         </div>
 
    
         <div className="main indent up">
 
-        <div>Communications Audit Services is an Illinois based, full-service E-Rate consulting firm.  We manage the entire application process. This includes; filing forms, managing audits, filing appeals, and discount rate maximization. Our all-inclusive fee is fully contingent upon successful funding and includes the lifetime of any application we file. </div>
+        <div><strong>Communications Audit Services :</strong> is a full-service E-Rate consulting firm.  We manage the entire application process. This includes; filing forms, managing audits, filing appeals, and discount rate maximization. Our all-inclusive fee is fully contingent upon successful funding and includes the lifetime of any application we file. </div>
         <br></br>
        
         <div>
@@ -44,7 +44,7 @@ function Main() {
       
         <div className="main up">
     
-        <div className="center  underline2 bigger"> Who is Eligible? </div>
+        <div className="center underline2 bigger"> Who is Eligible? </div>
         <Container>
         <Row>
         <Col>
@@ -57,8 +57,16 @@ function Main() {
         </ul>
         </Col>
         <Col>
-        <Row><div><img className="sidePics" src={Library} alt="KidsByComp"></img></div></Row>
-        <Row><div><img className="sidePics" src={Room} alt="KidsByComp"></img></div></Row>
+        <Row>
+          <div>
+          <img className="sidePics topPics" src={Library} alt="KidsByComp"></img>
+          {/* </div> */}
+        {/* </Row> */}
+        {/* <Row> */}
+          {/* <div> */}
+            <img className="sidePics topPics" src={Room} alt="KidsByComp"></img>
+            </div>
+            </Row>
         <Row><div><img className="sidePics" src={Kids2} alt="KidsByComp"></img></div></Row>
         </Col>
         </Row>

@@ -149,13 +149,13 @@ a:visited{
   bottom: -100px;
 }
 
-.test{
+/* .test{
   background-color: #194D33;
   background-color: #FFF8D6;
   background-color: #003452;
   background-color: #000000;
   background-color: #eeeeee;
-}
+} */
 
 .circuit{
   width:100%;
@@ -226,6 +226,7 @@ width:auto;
 border-radius: 25px 25px 25px 25px;
 border: 5px solid black;
 margin: 10px;
+margin-left:25px;
 float: right;
 height: 150px;
 display: flex;
@@ -238,6 +239,7 @@ width:auto;
 border-radius: 25px 25px 25px 25px;
 border: 5px solid black;
 margin: 10px;
+margin-right: 25px;
 float: left;
 height: 150px;
 display: flex;
@@ -278,7 +280,7 @@ margin-top: 10%;
 }
 
 .contactLeft{
-width: 50%;
+width: 100%;
 margin: 5px;
 }
 
@@ -289,6 +291,7 @@ margin: 5px;
 
 .wrap{
   display: flex;
+  position: relative;
 }
 
 .underline2{
@@ -316,3 +319,62 @@ height: auto;
 /* .text{
   width:80%;
 } */
+
+.full{
+  width:70%
+}
+
+.half1{
+  font-size: 26px;
+  background-color:  #eeeeee;
+  /* background-image: url("./assets/pics/chalk.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+  padding-left:50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 25px 25px 25px 25px;
+  border: 5px solid black;
+  width: 85%;
+  min-width: 250px;
+  /* margin: 10px; */
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top:-170px;
+}
+
+.half2{
+  font-size: 20px;
+  background-color:  #eeeeee;
+  /* background-image: url("./assets/pics/chalk.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+  padding-left:50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 25px 25px 25px 25px;
+  border: 5px solid black;
+  width: 85%;
+  min-width: 250px;
+  /* margin: 10px; */
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top:-170px;
+}
+
+.wider{
+width:100%;
+}
+
+.mTop{
+  margin-top: 10px;
+}
+
+.topPics{
+  width:45%;
+  margin:5px;
+}

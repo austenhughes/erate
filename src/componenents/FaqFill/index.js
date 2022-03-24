@@ -14,7 +14,7 @@ function FaqFill() {
         <img className="circuit" src={Circuit} alt="PhotoByUmbertoOnUnsplash"></img>
         <div className="container">
         <img className="logo" src={Logo} alt="logo"></img>
-        <div className="mainUp topZ center">Frequently Asked Questions</div></div>
+        <div className="mainUp topZ center underline2">Frequently Asked Questions :</div></div>
         </div>
 
         <Accordion alwaysOpen >
