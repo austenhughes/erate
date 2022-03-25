@@ -15,13 +15,13 @@ function Why() {
         <img className="circuit" src={Circuit} alt="PhotoByUmbertoOnUnsplash"></img>
         <div className="container">
         <img className="logo" src={Logo} alt="logo"></img>
-        <div className="mainUp topZ center bigger underline2">Consulting:</div></div>
+        <div className="mainUp topZ center bigger underline2">E-Rate Consulting:</div></div>
         </div>
 
     <Accordion alwaysOpen >
       <div className="main up">
   <Accordion.Item  style={{ backgroundColor: '#eeeeee' }} eventKey="0">
-    <Accordion.Header style={{ backgroundColor: '#eeeeee' }} ><div className="bigger">CAS Reduces Application Burden :</div></Accordion.Header>
+    <Accordion.Header style={{ backgroundColor: '#eeeeee' }} ><div className="bigger">CAS Reduces Application Burden:</div></Accordion.Header>
     <Accordion.Body style={{ backgroundColor: '#eeeeee' }} >
     <ul> 
       <li>Files all E - Rate forms including 470, 471, 486, 500, BEAR, and others as deemed necessary</li>
@@ -36,7 +36,7 @@ function Why() {
   </div>
   <div className="main up">
   <Accordion.Item  style={{ backgroundColor: '#eeeeee' }} eventKey="1">
-    <Accordion.Header style={{ backgroundColor: '#eeeeee' }} > <div className="bigger">CAS Maximizes Discount Rate :</div></Accordion.Header>
+    <Accordion.Header style={{ backgroundColor: '#eeeeee' }} > <div className="bigger">CAS Maximizes Discount Rate:</div></Accordion.Header>
     <Accordion.Body style={{ backgroundColor: '#eeeeee' }}  >
     <ul>
             <li> Review Free and Reduced eligibility numbers with Child Nutrition Staff</li>
@@ -55,7 +55,7 @@ function Why() {
   </div>
   <div className="main up">
   <Accordion.Item style={{ backgroundColor: '#eeeeee' }} eventKey="2">
-    <Accordion.Header style={{ backgroundColor: '#eeeeee' }} > <div className="bigger"> CAS Ensures All Eligible Services are Included :</div> </Accordion.Header>
+    <Accordion.Header style={{ backgroundColor: '#eeeeee' }} > <div className="bigger"> CAS Ensures All Eligible Services are Included:</div> </Accordion.Header>
     <Accordion.Body style={{ backgroundColor: '#eeeeee' }}>
     <ul>
             <li>Regularly discuss needs with technology staff</li>
@@ -69,7 +69,7 @@ function Why() {
   </div>
   <div className="main up">
   <Accordion.Item style={{ backgroundColor: '#eeeeee' }} eventKey="3">
-    <Accordion.Header style={{ backgroundColor: '#eeeeee' }} > <div className="bigger"> CAS Ensures Legal Compliance : </div></Accordion.Header>
+    <Accordion.Header style={{ backgroundColor: '#eeeeee' }} > <div className="bigger"> CAS Ensures Legal Compliance: </div></Accordion.Header>
     <Accordion.Body style={{ backgroundColor: '#eeeeee' }} >
     <ul>
             <li>All consultants attend yearly USAC training</li>
@@ -81,7 +81,7 @@ function Why() {
   </div>
   <div className="main up bottom">
   <Accordion.Item style={{ backgroundColor: '#eeeeee' }} eventKey="4">
-    <Accordion.Header style={{ backgroundColor: '#eeeeee' }} ><div className="bigger"> CAS Manages Audits :</div></Accordion.Header>
+    <Accordion.Header style={{ backgroundColor: '#eeeeee' }} ><div className="bigger"> CAS Manages Audits:</div></Accordion.Header>
     <Accordion.Body style={{ backgroundColor: '#eeeeee' }} >
     <ul>
             <li>CAS will be physically present for any on-site audit</li>
@@ -95,11 +95,11 @@ function Why() {
   </div>
 </Accordion>
 
-<div >
+{/* <div >
         <img className="img3" src={Tower} alt="tower"></img>
         <img className="img3" src={LearnKey} alt="learnKey"></img>
         <img className="img3" src={Cable} alt="computerCable"></img>
-        </div>
+        </div> */}
 
     </div>
   );

@@ -4,10 +4,13 @@ import React from "react";
 // import { Row } from "react-bootstrap";
 // import { Col } from "react-bootstrap";
 import Logo from './Logo.png';
+// import Comp from './iStock-898057154.jpg';
 
 
 function Footer() {
   return (
+    <div>
+    {/* <img className="compFoot" src={Comp} alt="computer opened next to a stack of books"></img> */}
     <div className="fullFoot">
     <div className="container">
     
@@ -38,6 +41,7 @@ function Footer() {
     <div className="insideFoot">© cas-erate 2022</div>
     </div>
  
+    </div>
     </div>
   );
 }

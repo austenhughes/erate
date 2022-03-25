@@ -1,14 +1,18 @@
 body {
   /* background-color: #f5f4f3; */
-  background-color:  #cacaca;
+  background-color:#7b7e85;
+  /* background-color:  #cacaca;  */
   /* background-image: url("./assets/pics/grunge-wood-texture.jpg"); */
   width: 100%;
   height: 100%;
-  min-height: 750px;
+  min-height: 550px;
   position: relative;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  border-bottom: #eeeeee;
+  border-style: solid;
+  border-width: 0px 0px 50px 0px;
 } 
 
 .sendContact{
@@ -70,13 +74,14 @@ a:visited{
     border-radius: 25px 25px 25px 25px;
     border: 5px solid black;
     height: 180px;
-    width: 30%;
-    object-fit: contain;
+    width: 35%;
+    min-width: 200px;
+    /* object-fit: contain; */
     float: left;
     position: relative;
     top:-215px;
     margin: 10px;
-    margin-left: -3%;
+    margin-right: 2%;
 }
 
 .grey{
@@ -95,11 +100,12 @@ a:visited{
   padding-bottom: 20px;
   border-radius: 25px 25px 25px 25px;
   border: 5px solid black;
-  width: 70%;
+  width: 80%;
   min-width: 250px;
   margin: 10px;
   margin-left: auto;
   margin-right: auto;
+  z-index: 1;
 }
 
 .indent{
@@ -113,6 +119,10 @@ a:visited{
 .bigger{
   font-size: 32px;
   margin-bottom: 25px;
+}
+
+.biggerFont{
+  font-size: 32px;
 }
 
 /* .bigBox{
@@ -164,11 +174,11 @@ a:visited{
   border-bottom: 10px solid black;
 }
 
-.topZ{
+/* .topZ{
   z-index: 1;
   position: relative;
-  /* top:-100px; */
-}
+  top:-100px;
+} */
 
 .mainUp{
   font-size: 36px;
@@ -195,6 +205,11 @@ a:visited{
   top:-170px;
 }
 
+/* .upMid{
+  position: relative;
+  top:-300px;
+} */
+
 .upMore{
   position: relative;
   top:-325px;
@@ -219,6 +234,7 @@ font-weight: bold;
 .fullFoot{
   border-top: 10px solid black;
   height: 200px;
+  background-color: #eeeeee;
 }
 
 .kids1{
@@ -308,11 +324,11 @@ position: relative;
 
 .abs{
 /* position: absolute; */
-width: 30%;
-margin-top: 50px;
+width: 40%;
+margin-top: 10px;
 margin-left: 105px;
-margin-right: 105px;
-margin-bottom: 50px;
+margin-right: 0px;
+margin-bottom: 10px;
 height: auto;
 }
 
@@ -377,4 +393,48 @@ width:100%;
 .topPics{
   width:45%;
   margin:5px;
+}
+
+.office2{
+  width:100%;
+  font-size: 18px;
+  /* font-weight: bold; */
+  }
+
+.topZ{
+    z-index: 1;
+    /* position: relative; */
+  }
+
+.web{
+  width:85%;
+  height: 350px;
+  margin:20px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  border-radius: 25px 25px 25px 25px;
+  border: 5px solid black;
+  display: flex;
+  align-items: flex-end;
+}
+
+.compFoot{
+  width:100%;
+  height: 500px;
+  margin-top: -500px;
+  z-index: -1;
+  position:absolute;
+  transform: scalex(-1);
+}
+
+/* .z0{
+  z-index: 0;
+  position:absolute;
+  bottom:200px;
+} */
+
+.z1{
+  z-index: 1;
+  /* position:absolute; */
 }
