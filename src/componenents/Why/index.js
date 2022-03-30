@@ -2,7 +2,7 @@ import React from "react";
 import Accordion from 'react-bootstrap/Accordion';
 import Circuit from './PhotoByUmbertoOnUnsplash.jpg';
 import Logo from './Logo.png';
-
+import Comp from './iStock-898057154.jpg';
 import LearnKey from './learnKey.jpg';
 import Cable from './cable.jpg';
 import Tower from './towers.jpg';
@@ -19,7 +19,7 @@ function Why() {
         </div>
 
     <Accordion alwaysOpen >
-      <div className="main up">
+      <div className="mainDrop up">
   <Accordion.Item  style={{ backgroundColor: '#eeeeee' }} eventKey="0">
     <Accordion.Header style={{ backgroundColor: '#eeeeee' }} ><div className="bigger">CAS Reduces Application Burden:</div></Accordion.Header>
     <Accordion.Body style={{ backgroundColor: '#eeeeee' }} >
@@ -34,7 +34,7 @@ function Why() {
     </Accordion.Body>
   </Accordion.Item>
   </div>
-  <div className="main up">
+  <div className="mainDrop up">
   <Accordion.Item  style={{ backgroundColor: '#eeeeee' }} eventKey="1">
     <Accordion.Header style={{ backgroundColor: '#eeeeee' }} > <div className="bigger">CAS Maximizes Discount Rate:</div></Accordion.Header>
     <Accordion.Body style={{ backgroundColor: '#eeeeee' }}  >
@@ -53,7 +53,7 @@ function Why() {
     </Accordion.Body>
   </Accordion.Item>
   </div>
-  <div className="main up">
+  <div className="mainDrop up">
   <Accordion.Item style={{ backgroundColor: '#eeeeee' }} eventKey="2">
     <Accordion.Header style={{ backgroundColor: '#eeeeee' }} > <div className="bigger"> CAS Ensures All Eligible Services are Included:</div> </Accordion.Header>
     <Accordion.Body style={{ backgroundColor: '#eeeeee' }}>
@@ -67,7 +67,7 @@ function Why() {
     </Accordion.Body>
   </Accordion.Item>
   </div>
-  <div className="main up">
+  <div className="mainDrop up">
   <Accordion.Item style={{ backgroundColor: '#eeeeee' }} eventKey="3">
     <Accordion.Header style={{ backgroundColor: '#eeeeee' }} > <div className="bigger"> CAS Ensures Legal Compliance: </div></Accordion.Header>
     <Accordion.Body style={{ backgroundColor: '#eeeeee' }} >
@@ -79,7 +79,7 @@ function Why() {
     </Accordion.Body>
   </Accordion.Item>
   </div>
-  <div className="main up bottom">
+  <div className="mainDrop up bottom">
   <Accordion.Item style={{ backgroundColor: '#eeeeee' }} eventKey="4">
     <Accordion.Header style={{ backgroundColor: '#eeeeee' }} ><div className="bigger"> CAS Manages Audits:</div></Accordion.Header>
     <Accordion.Body style={{ backgroundColor: '#eeeeee' }} >
@@ -100,7 +100,7 @@ function Why() {
         <img className="img3" src={LearnKey} alt="learnKey"></img>
         <img className="img3" src={Cable} alt="computerCable"></img>
         </div> */}
-
+ <img className="compFoot" src={Comp} alt=""></img>
     </div>
   );
 }

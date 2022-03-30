@@ -21,7 +21,7 @@ function ContactFill() {
         {/* <img className="compFoot" src={Comp} alt="logo"></img> */}
         <div className="rel">
         {/* <img className="compFoot z0" src={Comp} alt=""></img> */}
-        <Container className="z1">
+        <Container className="z1 moreBottom">
         <div className="half1">
         <div className="bigger center underline2">Contact us: </div>
         <Col>
@@ -80,7 +80,7 @@ function ContactFill() {
         </Container>
         </div>
         
-        <img className="compFoot" src={Comp} alt=""></img>
+        <img className="compFoot2" src={Comp} alt=""></img>
         </div>
   
       </div>

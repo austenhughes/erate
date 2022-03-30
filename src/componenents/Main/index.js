@@ -7,6 +7,7 @@ import Kids3 from './PhotoByMimiThianOnUnsplash.jpg';
 // import Library from './PhotoByJacquelineBrandwaynOnUnsplash.jpg';
 // import Yard from './PhotoByZacharyKeimigOnUnsplash.jpg';
 // import Room from './PhotoByIvanAleksicOnUnsplash.jpg';
+import Comp from './iStock-898057154.jpg';
 // import {Row, Col, Container} from 'react-bootstrap';
 
 function Main() {
@@ -20,7 +21,7 @@ function Main() {
         </div>
 
    
-        <div className="main indent up">
+        <div className="main indent up moreBottom clear">
 
         <div><strong>Communications Audit Services:</strong> is a full-service E-Rate consulting firm.  We manage the entire application process. This includes; filing forms, managing audits, filing appeals, and discount rate maximization. Our all-inclusive fee is fully contingent upon successful funding and includes the lifetime of any application we file.</div>
         <br></br>
@@ -37,7 +38,7 @@ function Main() {
         CAS consultants ensure that applicants are fully compliant with all rules, regulations, and deadlines.  This allows administrators and staff to focus scarce time and resources on the business of managing their school or library.  As trusted consultants, we also ensure that clients are able to maximize opportunities within the E-rate program which is constantly evolving. </div>
         </div>
         </div>
-      
+        <img className="compFoot" src={Comp} alt=""></img>
     </div>
   );
 }

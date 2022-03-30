@@ -1,6 +1,7 @@
 body {
   /* background-color: #f5f4f3; */
-  background-color:#7b7e85;
+  /* background-color:#7b7e85; */
+  background-image: linear-gradient(180deg, #c4c6cb 0%, #7b7e85 35%, #7b7e85 100%);
   /* background-color:  #cacaca;  */
   /* background-image: url("./assets/pics/grunge-wood-texture.jpg"); */
   width: 100%;
@@ -90,7 +91,8 @@ a:visited{
 
 .main{
   font-size: 26px;
-  background-color:  #eeeeee;
+  /* background-color:  #eeeeee; */
+  background: rgba(238, 238, 238, .70);
   /* background-image: url("./assets/pics/chalk.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%; */
@@ -107,6 +109,36 @@ a:visited{
   margin-right: auto;
   z-index: 1;
 }
+
+.mainDrop{
+  font-size: 26px;
+  /* background-color:  #eeeeee; */
+  background: rgba(238, 238, 238, .70);
+  /* background-image: url("./assets/pics/chalk.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+  padding-left:25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 25px 25px 25px 25px;
+  border: 5px solid black;
+  width: 80%;
+  min-width: 250px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
+/* 
+.clear{
+  opacity: 0.5;
+} */
+
+/* .solid{
+  opacity: 1;
+} */
 
 .indent{
   text-indent: 50px;
@@ -138,7 +170,7 @@ a:visited{
 }
 
 .bottom{
-  margin-bottom: -120px;
+  /* margin-bottom: -120px; */
 }
 
 .underline{
@@ -238,26 +270,26 @@ font-weight: bold;
 }
 
 .kids1{
-width:auto;
+width:300px;
 border-radius: 25px 25px 25px 25px;
 border: 5px solid black;
 margin: 10px;
 margin-left:25px;
 float: right;
-height: 150px;
+height: auto;
 display: flex;
 align-items: flex-end;
 /* shape-outside: inset(calc(100% - 250px) 0 0); */
 }
 
 .kids2{
-width:auto;
+width:300px;
 border-radius: 25px 25px 25px 25px;
 border: 5px solid black;
 margin: 10px;
 margin-right: 25px;
 float: left;
-height: 150px;
+height: auto;
 display: flex;
 align-items: flex-end;
 }
@@ -419,12 +451,22 @@ width:100%;
   align-items: flex-end;
 }
 
-.compFoot{
+.compFoot2{
   width:100%;
-  height: 500px;
-  margin-top: -500px;
+  height: auto;
   z-index: -1;
   position:absolute;
+  bottom: 200px;
+  transform: scalex(-1);
+}
+
+.compFoot{
+  width:100%;
+  height: auto;
+  /* margin-top: -700px; */
+  z-index: -1;
+  position:absolute;
+  bottom: 200px;
   transform: scalex(-1);
 }
 
@@ -438,3 +480,15 @@ width:100%;
   z-index: 1;
   /* position:absolute; */
 }
+
+.moreBottom{
+  margin-bottom: 100px;
+}
+
+.round{
+  border-radius: 25px 25px 25px 25px;
+}
+
+/* .accordion-item{
+  border-radius: 25px 25px 25px 25px;
+} */

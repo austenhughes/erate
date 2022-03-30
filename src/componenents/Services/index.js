@@ -9,6 +9,7 @@ import Kids2 from './PhotoByJeswinThomasOnUnsplash.jpg';
 import Kids1 from './kids1.jpg';
 import Apple from './iStock-93475425.jpg';
 import Connect from './iStock-503844546.jpg';
+import Comp from './iStock-898057154.jpg';
 
 function Servs() {
   return (
@@ -112,6 +113,7 @@ function Servs() {
       </li>
      </ul>
     </div>
+    <img className="compFoot" src={Comp} alt=""></img>
     </div>
   );
 }
