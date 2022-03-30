@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/erate/static/css/main.a0a2edfc.chunk.css",
+    "main.js": "/erate/static/js/main.2e59d48c.chunk.js",
+    "main.js.map": "/erate/static/js/main.2e59d48c.chunk.js.map",
+    "runtime-main.js": "/erate/static/js/runtime-main.9bceef1a.js",
+    "runtime-main.js.map": "/erate/static/js/runtime-main.9bceef1a.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/erate/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.01e345ef.chunk.js": "/erate/static/js/2.01e345ef.chunk.js",
+    "static/js/2.01e345ef.chunk.js.map": "/erate/static/js/2.01e345ef.chunk.js.map",
+    "index.html": "/erate/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/erate/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.a0a2edfc.chunk.css.map": "/erate/static/css/main.a0a2edfc.chunk.css.map",
+    "static/js/2.01e345ef.chunk.js.LICENSE.txt": "/erate/static/js/2.01e345ef.chunk.js.LICENSE.txt",
+    "static/media/Logo.f7b0d24e.png": "/erate/static/media/Logo.f7b0d24e.png",
+    "static/media/PhotoByIvanAleksicOnUnsplash.26a95496.jpg": "/erate/static/media/PhotoByIvanAleksicOnUnsplash.26a95496.jpg",
+    "static/media/PhotoByJacquelineBrandwaynOnUnsplash.1304fcc3.jpg": "/erate/static/media/PhotoByJacquelineBrandwaynOnUnsplash.1304fcc3.jpg",
+    "static/media/PhotoByJeswinThomasOnUnsplash.ddd85fd6.jpg": "/erate/static/media/PhotoByJeswinThomasOnUnsplash.ddd85fd6.jpg",
+    "static/media/PhotoByMimiThianOnUnsplash.ab18b6f1.jpg": "/erate/static/media/PhotoByMimiThianOnUnsplash.ab18b6f1.jpg",
+    "static/media/PhotoByUmbertoOnUnsplash.ffc28780.jpg": "/erate/static/media/PhotoByUmbertoOnUnsplash.ffc28780.jpg",
+    "static/media/iStock-503844546.81f043d2.jpg": "/erate/static/media/iStock-503844546.81f043d2.jpg",
+    "static/media/iStock-898057154.048df840.jpg": "/erate/static/media/iStock-898057154.048df840.jpg",
+    "static/media/iStock-898057154.af62ff11.jpg": "/erate/static/media/iStock-898057154.af62ff11.jpg",
+    "static/media/iStock-93475425.58873ed1.jpg": "/erate/static/media/iStock-93475425.58873ed1.jpg",
+    "static/media/kids1.f1e527cf.jpg": "/erate/static/media/kids1.f1e527cf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9bceef1a.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.01e345ef.chunk.js",
+    "static/css/main.a0a2edfc.chunk.css",
+    "static/js/main.2e59d48c.chunk.js"
+  ]
+}
