@@ -3,9 +3,9 @@ import Accordion from 'react-bootstrap/Accordion';
 import Circuit from './PhotoByUmbertoOnUnsplash.jpg';
 import Logo from './Logo.png';
 import Comp from './iStock-898057154.jpg';
-import LearnKey from './learnKey.jpg';
-import Cable from './cable.jpg';
-import Tower from './towers.jpg';
+// import LearnKey from './learnKey.jpg';
+// import Cable from './cable.jpg';
+// import Tower from './towers.jpg';
 
 function Why() {
   return (

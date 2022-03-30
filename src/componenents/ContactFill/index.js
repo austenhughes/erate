@@ -2,7 +2,7 @@ import React from "react";
 import Circuit from './PhotoByUmbertoOnUnsplash.jpg';
 import Logo from './Logo.png';
 // import Apple from './iStock-93475425.jpg';
-import Web from './iStock-621902496.jpg';
+// import Web from './iStock-621902496.jpg';
 import Comp from './iStock-898057154.jpg';
 import {Row, Col, Container} from 'react-bootstrap';
 // import Kids1 from './kids1.jpg';
