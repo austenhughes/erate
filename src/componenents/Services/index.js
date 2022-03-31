@@ -75,6 +75,7 @@ function Servs() {
      <img className="kids1 abs" src={Apple} alt="KidsByComp"></img>
     </div>
 
+    <div>
     <ul> 
       <li className="text"> $167 per student of funding eligible to apply every 5 years </li>
       <li> 20%-85% discounts on equipment</li>
@@ -112,6 +113,7 @@ function Servs() {
           </ul>
       </li>
      </ul>
+     </div>
     </div>
     <img className="compFoot" src={Comp} alt=""></img>
     </div>
