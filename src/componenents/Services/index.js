@@ -70,12 +70,12 @@ function Servs() {
     <div className="bigger center underline2"> Category Two Services: Equipment </div>
     
     <div>
-     <img className="kids1 abs" src={Connect} alt="KidsByComp"></img>
-     <img className="kids1 abs" src={Kids2} alt="KidsByComp"></img>
-     <img className="kids1 abs" src={Apple} alt="KidsByComp"></img>
+     <img className="kids4" src={Connect} alt="KidsByComp"></img>
+     <img className="kids4" src={Kids2} alt="KidsByComp"></img>
+     <img className="kids4" src={Apple} alt="KidsByComp"></img>
     </div>
 
-    <div>
+    <div className="text">
     <ul> 
       <li className="text"> $167 per student of funding eligible to apply every 5 years </li>
       <li> 20%-85% discounts on equipment</li>

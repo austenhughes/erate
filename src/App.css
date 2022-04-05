@@ -305,7 +305,27 @@ align-items: flex-end;
   height: auto;
   display: flex;
   align-items: flex-end;
-  }    
+  }   
+  
+.kids4{
+/* width:300px; */
+border-radius: 25px 25px 25px 25px;
+border: 5px solid black;
+margin: 10px;
+margin-left:25px;
+float: right;
+height: auto;
+max-height: 365px;
+display: flex;
+align-items: flex-end;
+/* shape-outside: inset(calc(100% - 250px) 0 0); */
+width: 50%;
+margin-top: 10px;
+margin-left: 10%;
+margin-right: 0px;
+margin-bottom: 10px;
+height: auto;
+}
   
 .sidePics{
   width:auto;
@@ -365,7 +385,7 @@ height: auto;
 }
 
 /* .text{
-  width:80%;
+  width:50%;
 } */
 
 .full{
