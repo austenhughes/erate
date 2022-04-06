@@ -37,7 +37,9 @@ function ContactFill() {
         <Col>
         <div>Questions: </div>
         <textarea type="text" cols="40" rows="5" className="contactRight"></textarea>
-        <button className="sendContact" onclick="myFunction()">Send</button>
+        <button className="sendContact" 
+        // onClick="myFunction()"
+        >Send</button>
         </Col>
         </div>
       
